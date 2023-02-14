@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExtentReportLoginPage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="testcase.LoginTc">
+        <methods>
+          <include name="setfile"/>
+          <include name="testcaseDetails"/>
+          <include name="endreport"/>
+          <include name="runLoginTC" invocation-numbers="0"/>
+          <include name="preConditions"/>
+          <include name="postConditions"/>
+          <include name="startreport"/>
+        </methods>
+      </class> <!-- testcase.LoginTc -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [ExtentReportLoginPage] -->
